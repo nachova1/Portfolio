@@ -20,8 +20,8 @@ const links = [
   {
     icon: Mail,
     label: "Email",
-    display: "ignaciovarela.dev@gmail.com",
-    href: "mailto:ignaciovarela.dev@gmail.com",
+    display: "varela.ig98@gmail.com",
+    href: "mailto:varela.ig98@gmail.com",
     color: "text-blue-500",
     bg: "bg-blue-500/10",
     border: "border-blue-500/20",
@@ -31,8 +31,8 @@ const links = [
   {
     icon: LinkedinIcon,
     label: "LinkedIn",
-    display: "linkedin.com/in/ignaciovarela",
-    href: "https://linkedin.com/in/ignaciovarela",
+    display: "linkedin.com/in/ignaciovarela98",
+    href: "https://www.linkedin.com/in/ignaciovarela98/",
     color: "text-violet-500",
     bg: "bg-violet-500/10",
     border: "border-violet-500/20",
@@ -42,8 +42,8 @@ const links = [
   {
     icon: GithubIcon,
     label: "GitHub",
-    display: "github.com/ignaciovarela",
-    href: "https://github.com/ignaciovarela",
+    display: "github.com/nachova1",
+    href: "https://github.com/nachova1",
     color: "text-emerald-500",
     bg: "bg-emerald-500/10",
     border: "border-emerald-500/20",

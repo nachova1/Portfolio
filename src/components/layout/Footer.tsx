@@ -17,9 +17,9 @@ function LinkedinIcon({ className }: { className?: string }) {
 }
 
 const socialLinks = [
-  { icon: GithubIcon,   label: "GitHub",   href: "https://github.com/ignaciovarela" },
-  { icon: LinkedinIcon, label: "LinkedIn", href: "https://linkedin.com/in/ignaciovarela" },
-  { icon: Mail,         label: "Email",    href: "mailto:ignaciovarela.dev@gmail.com" },
+  { icon: GithubIcon,   label: "GitHub",   href: "https://github.com/nachova1" },
+  { icon: LinkedinIcon, label: "LinkedIn", href: "https://www.linkedin.com/in/ignaciovarela98/" },
+  { icon: Mail,         label: "Email",    href: "mailto:varela.ig98@gmail.com" },
 ]
 
 export function Footer() {
