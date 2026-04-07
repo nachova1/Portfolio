@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { ArrowRight, Mail, Download, Code2, Briefcase, Layers } from "lucide-react"
 
 export function Hero() {
@@ -24,18 +25,13 @@ export function Hero() {
               <div className="absolute -inset-1.5 rounded-3xl bg-gradient-to-br from-blue-500 to-violet-600 opacity-25 blur-sm" />
 
               <div className="relative h-64 w-64 rotate-3 overflow-hidden rounded-2xl border border-[var(--border-default)] shadow-2xl shadow-black/30 lg:h-72 lg:w-72">
-                {/* Placeholder — replace with real photo via next/image */}
-                <div className="flex h-full w-full items-end justify-center bg-gradient-to-br from-slate-700 via-slate-800 to-slate-900">
-                  <svg
-                    viewBox="0 0 128 128"
-                    className="w-40 translate-y-3 text-slate-500"
-                    fill="currentColor"
-                    aria-hidden="true"
-                  >
-                    <circle cx="64" cy="44" r="26" />
-                    <ellipse cx="64" cy="112" rx="46" ry="30" />
-                  </svg>
-                </div>
+                <Image
+                  src="/hero-image.png"
+                  alt="Ignacio Varela"
+                  fill
+                  className="object-cover object-top"
+                  priority
+                />
               </div>
             </div>
           </div>
