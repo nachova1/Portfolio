@@ -109,7 +109,7 @@ export function Hero() {
                 <Briefcase className="h-4 w-4 text-violet-500" />
               </div>
               <div>
-                <p className="text-lg font-bold leading-none text-foreground">+1 año</p>
+                <p className="text-lg font-bold leading-none text-foreground">+2 año</p>
                 <p className="mt-0.5 text-sm text-muted-foreground">experiencia</p>
               </div>
             </div>
