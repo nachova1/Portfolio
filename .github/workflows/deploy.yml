@@ -18,7 +18,8 @@ jobs:
           key: ${{ secrets.EC2_KEY }}
           script: |
             cd ~/Portfolio
-            git pull
+            git fetch origin
+            git reset --hard origin/main
             npm install
             npm run build
             pm2 restart portfolio

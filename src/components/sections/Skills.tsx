@@ -38,6 +38,14 @@ function TailwindIcon({ className }: { className?: string }) {
   )
 }
 
+function RechartsIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden="true">
+      <path d="M22.5 9H19V4.5a.5.5 0 0 0-.5-.5H14V1.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V4H5.5a.5.5 0 0 0-.5.5V9H1.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5H5v4.5a.5.5 0 0 0 .5.5H10v2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V18h4.5a.5.5 0 0 0 .5-.5V13h3.5a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zM11 2h2v2h-2zm-5 3h8v4H6zm-4 5h2.5v2H2zm3 7V12h8v5H5zm9 2.5V17h2v2.5zM18 17h-2v-5h2zm3-5h-2v-2H21z" fill="#22B5BF"/>
+    </svg>
+  )
+}
+
 function NodejsIcon({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 24 24" fill="#339933" className={className} aria-hidden="true">
@@ -146,6 +154,7 @@ const categories: {
       { name: "Next.js",    icon: NextjsIcon },
       { name: "JavaScript", icon: JavaScriptIcon },
       { name: "Tailwind",   icon: TailwindIcon },
+      { name: "Recharts",   icon: RechartsIcon },
     ],
   },
   {
